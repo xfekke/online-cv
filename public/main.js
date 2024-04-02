@@ -26,9 +26,20 @@ window.addEventListener("click", e => {
   }
 });
 
-//router global funktion
 window.router = router;
 
-//uppdaterar router när spa sida laddas
 window.addEventListener("popstate", router);
 window.addEventListener("DOMContentLoaded", router);
+
+document.addEventListener("DOMContentLoaded", function () {
+  var navLinks = document.querySelectorAll(".nav-link");
+
+  navLinks.forEach(function (link) {
+    link.addEventListener("click", function (event) {
+      navLinks.forEach(function (link) {
+        link.classList.remove("active");
+      });
+      this.classList.add("active");
+    });
+  });
+});
