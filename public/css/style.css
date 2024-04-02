@@ -20,7 +20,9 @@ header {
   color: rgb(30, 30, 30);
   font-size: larger;
   font-family: 'Ubuntu', sans-serif;
-  margin: 8vh;
+  margin-left: 10%;
+  margin-top: 4vh;
+  margin-bottom: 4vh;
 }
 
 #nav-meny a:visited {
@@ -42,24 +44,36 @@ h3 {
 
 h4 {
   font-size: medium;
-  font-family: 'Times New Roman', Times, serif;
-  margin: 8vh;
+  font-family: Arial, Helvetica, sans-serif;
+
+  font-weight: 100;
 }
 
 /* Image css */
 
 #linkLogos {
-  margin-left: 6vh;
+  margin-left: 10%;
 }
 
 #linkLogos img {
-  width: 100px;
+  width: 60px;
   height: auto;
-  margin: 2vh;
+  margin-right: 2vh;
+  margin-bottom: 2vh;
+  margin-top: 2vh;
 }
 
 .avatar {
   width: 400px;
   height: auto;
-  margin: 4vh;
+  margin-left: 17%;
+}
+
+/* About me page */
+
+#aboutMeText {
+  background-color: rgb(207, 176, 176);
+  margin-left: 10%;
+  width: 40%;
+  padding: 2vh;
 }
