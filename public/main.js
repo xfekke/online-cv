@@ -1,12 +1,9 @@
 import about from "./views/about.js";
-import contact from "./views/contact.js";
-import home from "./views/home.js"
-
+import projects from "./views/projects.js";
 
 const routes = {
-  "/": { title: "Home", render: home },
-  "/about": { title: "About", render: about },
-  "/contact": { title: "Contact", render: contact }
+  "/": { title: "About", render: about },
+  "/projects": { title: "Projects", render: projects }
 };
 
 function router() {
@@ -21,7 +18,6 @@ function router() {
   }
 };
 
-
 window.addEventListener("click", e => {
   if (e.target.matches("[data-link]")) {
     e.preventDefault();
@@ -29,7 +25,6 @@ window.addEventListener("click", e => {
     router();
   }
 });
-
 
 //router global funktion
 window.router = router;
