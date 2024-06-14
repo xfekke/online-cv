@@ -4,11 +4,15 @@
   "description": "This page will act as my online CV.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server --port 10001",
+    "start": "npm run lite"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "json-server": "^1.0.0-alpha.23"
-  }
+    "json-server": "^1.0.0-alpha.23",
+    "lite-server": "^1.3.1"
+  },
+  "lite-server": "^1.3.1"
 }

@@ -9,8 +9,11 @@ export default () => /*html*/`
       attitude that reflects on my work.
       <br>
       <br>
-      I’m based in Stockholm where I am studying at KYH to become a software tester. If there is an available spot as an
-      intern, I can be found here:
+      I have worked with JavaScript, MySQL, Postman, MongoDB and Cypress.io
+      <br>
+      <br>
+      I’m based in Stockholm where I am studying at KYH to become a software tester. If you have an available spot as an
+      intern for me, I can be found here:
 
     </h4>
   </div>
