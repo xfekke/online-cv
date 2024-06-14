@@ -69,6 +69,11 @@ h4 {
   margin-left: 17%;
 }
 
+#postmanSC {
+  width: 60%;
+  height: auto;
+}
+
 /* About me page */
 
 #aboutMeText {
@@ -76,4 +81,13 @@ h4 {
   margin-left: 10%;
   width: 40%;
   padding: 2vh;
+}
+
+/* My Projects page */
+
+#apiDbAssignment {
+  background-color: lightgray; 
+  padding: 1rem; 
+  box-sizing: border-box; 
+  border: 2px solid gray; 
 }
