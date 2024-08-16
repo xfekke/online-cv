@@ -12,7 +12,8 @@
   "license": "ISC",
   "dependencies": {
     "json-server": "^1.0.0-alpha.23",
-    "lite-server": "^1.3.1"
+    "lite-server": "^1.3.1",
+    "tailwindcss": "^3.4.10"
   },
   "lite-server": "^1.3.1"
 }
