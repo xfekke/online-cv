@@ -6,12 +6,25 @@ const routes = {
   "/projects": { title: "Projects", render: projects }
 };
 
+function setActiveLink() {
+  var navLinks = document.querySelectorAll(".nav-link");
+  var currentPath = location.pathname;
+
+  navLinks.forEach(function (link) {
+    link.classList.remove("active");
+    if (link.getAttribute("href") === currentPath) {
+      link.classList.add("active");
+    }
+  });
+}
+
 function router() {
   let view = routes[location.pathname];
 
   if (view) {
     document.title = view.title;
     app.innerHTML = view.render();
+    setActiveLink();
   } else {
     history.replaceState("", "", "/");
     router();
@@ -30,16 +43,3 @@ window.router = router;
 
 window.addEventListener("popstate", router);
 window.addEventListener("DOMContentLoaded", router);
-
-document.addEventListener("DOMContentLoaded", function () {
-  var navLinks = document.querySelectorAll(".nav-link");
-
-  navLinks.forEach(function (link) {
-    link.addEventListener("click", function (event) {
-      navLinks.forEach(function (link) {
-        link.classList.remove("active");
-      });
-      this.classList.add("active");
-    });
-  });
-});
