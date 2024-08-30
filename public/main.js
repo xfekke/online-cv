@@ -4,8 +4,8 @@ import resume from "./views/resume.js";
 
 const routes = {
   "/": { title: "Home", render: home },
-  "/resume": { title: "Resume", render: resume },
-  "/projects": { title: "Projects", render: projects }
+  "/projects": { title: "Projects", render: projects },
+  "/resume": { title: "Resume", render: resume }
 };
 
 function setActiveLink() {

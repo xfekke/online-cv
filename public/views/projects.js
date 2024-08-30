@@ -29,7 +29,7 @@ export default () => /*html*/`
           </p>
         </div>
         <div class="project-image">
-          <img src="./public/image/gherkinBDD.png" alt="gherkinBDD">
+          <img src="./public/image/gherkinbdd.png" alt="gherkinBDD">
         </div>
       </div>
 
