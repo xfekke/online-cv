@@ -1,8 +1,10 @@
-import about from "./views/about.js";
+import home from "./views/home.js";
 import projects from "./views/projects.js";
+import resume from "./views/resume.js";
 
 const routes = {
-  "/": { title: "About", render: about },
+  "/": { title: "Home", render: home },
+  "/resume": { title: "Resume", render: resume },
   "/projects": { title: "Projects", render: projects }
 };
 

@@ -7,35 +7,49 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Home</title>
   <link rel="stylesheet" href="./public/css/style.css">
-
 </head>
 
 <body>
 
   <header>
-    <img src="./public/image/avatar.png" alt="avatar" class="avatar">
-    <div class="text-container">
-      <h3 id="hello">
-        Hello!
-        <br>
-        &nbsp;&nbsp;&nbsp;- I'm Sebastian
-        <br>
-        &nbsp;Welcome to my page!
-      </h3>
+    <div class="header-container">
+      <div class="header-title">
+        <strong>Sebastian Sernald</strong> <span>Software Testing Student</span>
+      </div>
+      <nav class="header-nav">
+        <a href="/" data-link class="nav-link">Home</a>
+        <a href="/resume" data-link class="nav-link">Resume</a>
+        <a href="/projects" data-link class="nav-link">My Projects</a>
+      </nav>
     </div>
   </header>
-
-  <div id="aboutSPA">
-    <nav id="nav-meny">
-      <a href="/" data-link class="nav-link">About me</a>
-      <a href="/projects" data-link class="nav-link">My projects</a>
-    </nav>
-  </div>
-
+  
 
   <main id="app"></main>
   <script type="module" src="./public/main.js"></script>
-
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="contact-item">
+        <p><strong>Phone</strong><br>+46 70 041 50 61</p>
+      </div>
+      <div class="contact-item">
+        <p><strong>Email</strong><br>sebastiansernald98@gmail.com</p>
+      </div>
+      <div class="profiles">
+        <p><strong>Profiles</strong></p>
+        <a href="https://github.com/xfekke" target="_blank">
+          <img src="./public/image/github.png" alt="GitHub" class="profile-icon">
+        </a>
+        <a href="https://www.linkedin.com/in/sebastian-sernald-49b543287/" target="_blank">
+          <img src="./public/image/linkedin.png" alt="LinkedIn" class="profile-icon">
+        </a>
+      </div>
+    </div>
+  </footer>
+  
+  
+  
+  
 </body>
 
 </html>
