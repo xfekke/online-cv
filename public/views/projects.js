@@ -14,7 +14,7 @@ export default () => /*html*/`
           </p>
         </div>
         <div class="project-image">
-          <img src="./public/image/postmanSC.png" alt="postmanSC">
+          <img src="../public/image/postmansc.png" alt="postmansc">
         </div>
       </div>
 
@@ -29,7 +29,7 @@ export default () => /*html*/`
           </p>
         </div>
         <div class="project-image">
-          <img src="./public/image/gherkinbdd.png" alt="gherkinBDD">
+          <img src="../public/image/gherkinbdd.png" alt="gherkinBDD">
         </div>
       </div>
 
