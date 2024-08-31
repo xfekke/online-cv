@@ -14,7 +14,7 @@ export default function home() {
       I have worked with JavaScript, MySQL, Postman, MongoDB, Cypress.io and Vitest. I have also worked in groups with SCRUM practices and agile methodologies.
         <br/>
       I’m based in Stockholm where I am studying at KYH to become a software tester. If you have an available spot as an
-      intern for me please contact me.
+      intern for me I would love to get in contact.
     </p>
   </div>
 </div>
