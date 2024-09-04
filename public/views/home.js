@@ -1,7 +1,7 @@
 export default function home() {
-    return `
+  return `
       <div class="content-container">
-  <img src="./public/image/avatar.png" alt="avatar" class="avatar">
+  <img src="./online-cv/public/image/avatar.png" alt="avatar" class="avatar">
   <div class="text-container">
     <h1 id="hello">Hello</h1>
     <h2 class="sub-title">A Bit About Me</h2>
@@ -20,5 +20,4 @@ export default function home() {
 </div>
 
     `;
-  }
-  
+}
