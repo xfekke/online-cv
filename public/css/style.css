@@ -113,7 +113,8 @@ p {
   font-family: 'Ubuntu', sans-serif;
 }
 
-h1, h3 {
+h1,
+h3 {
   font-family: 'Ubuntu', sans-serif;
   margin: 0;
   padding: 0;
@@ -187,34 +188,40 @@ h4 {
   padding-right: 10px;
 }
 
-.education, .experience {
+.education,
+.experience {
   display: flex;
   justify-content: space-between;
   padding-left: 10px;
   padding-right: 10px;
 }
 
-.education-item, .experience-item {
+.education-item,
+.experience-item {
   width: 48%;
 }
 
-.education-item h3, .experience-item h3 {
+.education-item h3,
+.experience-item h3 {
   font-size: 1.2em;
   font-weight: bold;
 }
 
-.education-item h4, .experience-item h4 {
+.education-item h4,
+.experience-item h4 {
   font-size: 1.1em;
   margin-bottom: 10px;
 }
 
-.education-item ul, .experience-item ul {
+.education-item ul,
+.experience-item ul {
   font-size: 1em;
   margin-bottom: 5px;
   padding-left: 20px;
 }
 
-.education-item ul li, .experience-item ul li {
+.education-item ul li,
+.experience-item ul li {
   list-style-type: disc;
   margin-bottom: 5px;
 }
@@ -295,4 +302,10 @@ h4 {
 
 .project-item a:hover {
   text-decoration: underline;
+}
+
+.hidden-image {
+  width: 1px;
+  height: 1px;
+  opacity: 0;
 }
