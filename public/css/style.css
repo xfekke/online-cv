@@ -303,9 +303,3 @@ h4 {
 .project-item a:hover {
   text-decoration: underline;
 }
-
-.hidden-image {
-  width: 1px;
-  height: 1px;
-  opacity: 0;
-}
