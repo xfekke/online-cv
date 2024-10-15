@@ -6,15 +6,11 @@ export default function home() {
     <h1 id="hello">Hello</h1>
     <h2 class="sub-title">A Bit About Me</h2>
     <p class="description">
-      My name is Sebastian and this site will work as my online CV since I am currently looking for an internship in
-      January 2025 as a software tester. I am planning to add more things as I learn to show my current level of skill. 
-      I am an enthusiastic and goal-oriented individual who always strives to learn something new. 
+      My name is Sebastian, and this website serves as my online CV as I seek an internship in software testing starting in January 2025. I plan to continuously update this site to reflect my growing skills and experiences.
       <br/>
-      I have a creative and positive attitude that reflects on my work.
-      I have worked with JavaScript, MySQL, Postman, MongoDB, Cypress.io and Vitest. I have also worked in groups with SCRUM practices and agile methodologies.
+      I am an enthusiastic and goal-oriented individual dedicated to learning and professional development. My creative and positive attitude is evident in my work. I have experience with working in JavaScript, MySQL, Postman, MongoDB, Cypress.io, and Vitest. Additionally, I have collaborated with teams utilizing SCRUM practices and agile methodologies.
         <br/>
-      I’m based in Stockholm where I am studying at KYH to become a software tester. If you have an available spot as an
-      intern for me I would love to get in contact.
+      I am currently studying at KYH in Stockholm, where I am training to become a software tester. I would greatly appreciate the opportunity to connect if you have any internship positions available.
     </p>
   </div>
 </div>
