@@ -5,6 +5,21 @@ export default () => /*html*/`
 
       <div class="project-item">
         <div class="project-text">
+          <h3>Connect Four with AI and network capabilities</h3>
+          <a href="https://github.com/AlbinBjerhem/Connect_four/tree/dev_sprint4_donet">Link to my project</a>
+          <p>
+            This assignment was to create a connect four game where you can play versus different levels of AI, external AI and also play versus a friend online.
+            <br>
+            In this project, I implemented online play, different bot levels, and an external AI. I also designed the CSS for the user interface and wrote tests using Cypress.io and Vitest to ensure all features function correctly. Additionally, I created and updated the documentation, which is available across all branches in the project's GitHub repository.
+          </p>
+        </div>
+        <div class="project-image">
+          <img src="./online-cv/public/image/connectFour.png" alt="connectFour">
+        </div>
+      </div>
+
+      <div class="project-item">
+        <div class="project-text">
           <h3>API DB Assignment</h3>
           <a href="https://github.com/xfekke/api-db-assignment">Link to my project</a>
           <p>
