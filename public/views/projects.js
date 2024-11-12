@@ -6,7 +6,7 @@ export default () => /*html*/`
       <div class="project-item">
         <div class="project-text">
           <h3>Connect Four with AI and network capabilities</h3>
-          <a href="https://github.com/AlbinBjerhem/Connect_four/tree/dev_sprint4_donet">Link to my project</a>
+          <a href="https://github.com/AlbinBjerhem/Connect_four/tree/dev_sprint4_done">Link to my project</a>
           <p>
             This assignment was to create a connect four game where you can play versus different levels of AI, external AI and also play versus a friend online.
             <br>
