@@ -409,3 +409,70 @@ h4 {
   font-style: italic;
 }
 
+/* Portraits*/
+
+/* Portrait section styles */
+.portrait-section {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.portrait-section h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.portrait-section p {
+  font-size: 1.1em;
+  margin-bottom: 20px;
+}
+
+.portrait-gallery {
+  display: flex;
+  flex-wrap: wrap; /* Gör bilderna responsiva */
+  gap: 30px; /* Avstånd mellan bilder */
+  justify-content: center; /* Centrerar bilderna */
+}
+
+.portrait-item {
+  flex: 1 1 400px; /* Flexibel bredd */
+  max-width: 400px; /* Maximal bredd */
+  text-align: center;
+}
+
+.portrait-image {
+  max-height: 400px; /* Begränsar höjd till 400px */
+  width: auto; /* Anpassar bredd proportionerligt */
+  height: auto; /* Bibehåller proportioner */
+  object-fit: contain; /* Gör att bilden passar in i sin box */
+  border-radius: 10px; /* Rundar kanterna */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Lägger till en skugga */
+}
+
+
+
+
+/* Lightbox */
+.lightbox {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.lightbox img {
+  max-width: 90%;
+  max-height: 90%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.lightbox:active {
+  cursor: pointer;
+}

@@ -15,9 +15,17 @@ export default function hobbies() {
       { name: "Gun Animation", file: "animationGun.gif" },
     ];
   
+    const portraits = [
+        { file: "portrait1.png" },
+        { file: "portrait2.png" },
+        { file: "portrait3.png" },
+        { file: "portrait4.png" }, // Tillfällig kopia
+      ];
+      
+  
     return `
       <div class="hobbies-container">
-        <h1>My Hobbies</h1>
+        <h1>My Hobbies <span>(Click on images to enlarge)</span></h1>
         <p>
           Here are some of the full art Pokémon cards I’ve painted and designed in Adobe Photoshop. 
           This project allowed me to explore various art styles and techniques, showcasing my creativity and attention to detail.
@@ -27,7 +35,7 @@ export default function hobbies() {
             .map(
               (image) => `
             <div class="hobby-item">
-              <img src="./public/image/imagesHobbies/${image.file}" alt="${image.name}" class="hobby-image">
+              <img src="./public/image/imagesHobbies/${image.file}" alt="${image.name}" class="hobby-image" onclick="openLightbox('./public/image/imagesHobbies/${image.file}')">
               <p class="hobby-description">${image.name}</p>
             </div>
           `
@@ -38,20 +46,42 @@ export default function hobbies() {
         <div class="animation-section">
           <h2>Some Animations I Made</h2>
           <p>
-            Some animations I made in Aseprite for a game a friend was making in Godot. These were fun projects that allowed me to experiment with pixel art and animation techniques.
+            Some animations I made in Aseprite for a game a friend was making in GoDot. These were fun projects that allowed me to experiment with pixel art and animation techniques.
           </p>
           <div class="animation-gallery">
             ${animations
               .map(
                 (animation) => `
               <div class="animation-item">
-                <img src="./public/image/animations/${animation.file}" alt="${animation.name}" class="animation-gif">
+                <img src="./public/image/animations/${animation.file}" alt="${animation.name}" class="animation-gif" onclick="openLightbox('./public/image/animations/${animation.file}')">
                 <p class="animation-description">${animation.name}</p>
               </div>
             `
               )
               .join("")}
           </div>
+        </div>
+  
+        <div class="portrait-section">
+          <h2>Digital Portraits</h2>
+          <p>
+            Here are some additional artworks I've painted in Adobe Photoshop.
+          </p>
+          <div class="portrait-gallery">
+            ${portraits
+              .map(
+                (portrait) => `
+              <div class="portrait-item">
+                <img src="./public/image/imagesHobbies/${portrait.file}" alt="Portrait" class="portrait-image" onclick="openLightbox('./public/image/imagesHobbies/${portrait.file}')">
+              </div>
+            `
+              )
+              .join("")}
+          </div>
+        </div>
+  
+        <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+          <img id="lightbox-image" src="" alt="Lightbox Image">
         </div>
       </div>
     `;

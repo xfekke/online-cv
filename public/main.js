@@ -7,7 +7,7 @@ const routes = {
   "/": { title: "Home", render: home },
   "/projects": { title: "Projects", render: projects },
   "/resume": { title: "Resume", render: resume },
-  "/hobbies": { title: "Hobbies", render: hobbies } 
+  "/hobbies": { title: "Hobbies", render: hobbies }, 
 };
 
 function setActiveLink() {
@@ -33,9 +33,9 @@ function router() {
     history.replaceState("", "", "/");
     router();
   }
-};
+}
 
-window.addEventListener("click", e => {
+window.addEventListener("click", (e) => {
   if (e.target.matches("[data-link]")) {
     e.preventDefault();
     history.pushState("", "", e.target.href);
@@ -47,3 +47,16 @@ window.router = router;
 
 window.addEventListener("popstate", router);
 window.addEventListener("DOMContentLoaded", router);
+
+// Lightbox functions
+window.openLightbox = function (src) {
+  const lightbox = document.getElementById("lightbox");
+  const lightboxImage = document.getElementById("lightbox-image");
+  lightbox.style.display = "flex";
+  lightboxImage.src = src;
+};
+
+window.closeLightbox = function () {
+  const lightbox = document.getElementById("lightbox");
+  lightbox.style.display = "none";
+};
