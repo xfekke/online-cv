@@ -1,19 +1,20 @@
 export default function home() {
   return `
-      <div class="content-container">
-  <img src="./online-cv/public/image/avatar.png" alt="avatar" class="avatar">
-  <div class="text-container">
-    <h1 id="hello">Hello</h1>
-    <h2 class="sub-title">A Bit About Me</h2>
-    <p class="description">
-      My name is Sebastian, and this website serves as my online CV as I seek an internship in software testing starting in January 2025. I plan to continuously update this site to reflect my growing skills and experiences.
-      <br/>
-      I am an enthusiastic and goal-oriented individual dedicated to learning and professional development. My creative and positive attitude is evident in my work. I have experience with working in JavaScript, MySQL, Postman, MongoDB, Cypress.io, Selenium, Playwright, and Vitest. Additionally, I have collaborated with teams utilizing SCRUM practices and agile methodologies.
-        <br/>
-      I am currently studying at KYH in Stockholm, where I am training to become a software tester. I would greatly appreciate the opportunity to connect if you have any internship positions available.
-    </p>
-  </div>
-</div>
-
-    `;
+    <div class="content-container">
+      <img src="./online-cv/public/image/avatar.png" alt="avatar" class="avatar">
+      <div class="text-container">
+        <h1 id="hello">Hello</h1>
+        <h2 class="sub-title">About Me</h2>
+        <p class="description">
+          My name is Sebastian, and I am currently studying software testing at KYH in Stockholm. I am looking for an internship in software testing sfor the spring semester in 2025, where I can apply my skills and enthusiasm to contribute to your team.
+          <br/>
+          I have experience with tools and frameworks like JavaScript, MySQL, Postman, MongoDB, Cypress.io, Selenium, Playwright, and Vitest. I have also collaborated with teams using SCRUM and agile methodologies.
+          <br/>
+          Outside of studies, I enjoy digital painting, listening to music, and spending time with family and friends. I am fluent in both English and Swedish, in both speech and writing.
+          <br/>
+          I am a curious and goal-oriented individual passionate about learning and professional growth. I look forward to connecting if you have an opportunity that matches my skills.
+        </p>
+      </div>
+    </div>
+  `;
 }

@@ -1,11 +1,13 @@
 import home from "./views/home.js";
 import projects from "./views/projects.js";
 import resume from "./views/resume.js";
+import hobbies from "./views/hobbies.js"; 
 
 const routes = {
   "/": { title: "Home", render: home },
   "/projects": { title: "Projects", render: projects },
-  "/resume": { title: "Resume", render: resume }
+  "/resume": { title: "Resume", render: resume },
+  "/hobbies": { title: "Hobbies", render: hobbies } 
 };
 
 function setActiveLink() {

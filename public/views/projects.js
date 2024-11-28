@@ -1,6 +1,24 @@
 export default () => /*html*/`
   <section class="projects-section">
     <div class="projects-content">
+
+      <h1>My Personal Projects</h1>
+
+      <div class="project-item">
+        <div class="project-text">
+          <h3>Wowpug Hatelist</h3>
+          <a href="https://github.com/xfekke/WowpugAddon">Link to my project</a>
+          <p>
+            This is a World of Warcraft addon I developed to track player names, servers, and offenses in group activities, specifically for Mythic+ dungeons.
+            <br>
+            In this project, I created functionality to add players, view players, and manage a database of infractions directly within the game. The addon is implemented in Lua and integrates seamlessly with the game's API. It also features a simple interface and command system for easy usage. This project was created since it would be easier to use than using a notepad, it was a need I decided to create a solution for. I also wanted to try out LUA since I have not used it before.
+          </p>
+        </div>
+        <div class="project-image">
+          <img src="./online-cv/public/image/wowpug.png" alt="wowpug">
+        </div>
+      </div>
+
       <h1>My School Projects</h1>
 
       <div class="project-item">

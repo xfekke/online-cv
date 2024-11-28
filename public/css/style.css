@@ -226,6 +226,30 @@ h4 {
   margin-bottom: 5px;
 }
 
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+.skills-container > div {
+  flex: 1 1 45%;
+}
+
+.skills-container > div ul {
+  margin: 0;
+  padding-left: 20px;
+  list-style-type: disc;
+}
+
+.skills-container > div strong {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 1.1em;
+}
+
+
 /* projects.js */
 .projects-section {
   padding: 20px 20px;
@@ -303,3 +327,85 @@ h4 {
 .project-item a:hover {
   text-decoration: underline;
 }
+
+/* Hobby-images */
+
+.hobbies-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.hobbies-container h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.hobbies-container p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.hobbies-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.hobby-item {
+  width: 200px;
+  height: auto;
+  text-align: center;
+}
+
+.hobby-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Animated Gifs */
+.animation-section {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.animation-section h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.animation-section p {
+  font-size: 1.1em;
+  margin-bottom: 20px;
+}
+
+.animation-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.animation-item {
+  text-align: center;
+  max-width: 200px; 
+}
+
+.animation-gif {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.animation-description {
+  margin-top: 10px;
+  font-size: 0.9em;
+  color: var(--text-color);
+  font-style: italic;
+}
+
