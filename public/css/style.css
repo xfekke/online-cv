@@ -168,6 +168,79 @@ h4 {
   margin: 0 10px;
 }
 
+/* Projects Section */
+.projects-section {
+  padding: 20px;
+  background-color: var(--background-color);
+}
+
+.projects-content {
+  margin-bottom: 20px;
+}
+
+.projects-content h1 {
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 10px;
+}
+
+.project-item {
+  display: flex;
+  flex-direction: row; 
+  align-items: center;
+  margin-bottom: 40px;
+  gap: 20px;
+}
+
+.project-item:nth-child(even) {
+  flex-direction: row-reverse; 
+}
+
+.project-text {
+  flex: 1;
+  text-align: left;
+}
+
+.project-text h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: var(--text-color);
+}
+
+.project-text a {
+  display: inline-block;
+  font-size: 1em;
+  color: var(--link-color);
+  font-weight: bold;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.project-text a:hover {
+  text-decoration: underline;
+}
+
+.project-text p {
+  font-size: 1em;
+  line-height: 1.6;
+}
+
+.project-image {
+  flex: 1;
+  max-width: 50%; 
+}
+
+.project-image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
 /* resume.js */
 .resume-section {
   padding: 20px 40px;
